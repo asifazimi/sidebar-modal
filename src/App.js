@@ -1,7 +1,14 @@
+// components
+import Modal from "./components/Modal";
+import Sidebar from "./components/Sidebar";
+import Home from "./Home";
+
 function App() {
   return (
     <>
-      <h1>Sidebar Modal</h1>
+      <Home />
+      <Modal />
+      <Sidebar />
     </>
   );
 }
